@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def base(request):
-    return render('templates/base.html')
+    return render(request, 'templates/base.html')
