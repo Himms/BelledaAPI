@@ -9,7 +9,9 @@
 - create authentication
 
 - create app and models for products and categories (male/female)
-- show list of products in the admin area
+- show list of designs in the admin area
 - let designers be able to add products
 
-- 
+- Display latest additions in the front page
+- Allow display of detail view of a design
+- show category
