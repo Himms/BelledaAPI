@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def become_designer(request):
-    return render(request, 'designer/become_designer.html')
+    return render(request, 'become_designer.html')
