@@ -21,6 +21,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('designers/', include('designers.urls')),
+    path('designers/', include('designer.urls')),
     path('', include('belleda_main.urls')),
 ]
