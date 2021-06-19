@@ -1,0 +1,21 @@
+.idea/
+
+*.xml
+
+belleda_fashion_project/
+
+*.log
+
+# *__pycache__
+
+db.sqlite3
+
+*.pot
+
+*.pyc
+
+*/*/*/__pycache__/
+
+*/*/__pycache__/
+
+*/__pycache__/
