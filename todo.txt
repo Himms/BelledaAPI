@@ -1,0 +1,17 @@
+- Create Virtual Environment and activate it (belleda_fashion_project)
+- install django and Create project (belleda)
+- Create app for main view and add to installed apps
+
+- create app for designers
+- create database for designers (models.py)
+- create view, template and form for sign up (views)
+
+- create authentication
+
+- create app and models for products and categories (male/female)
+- show list of designs in the admin area
+- let designers be able to add products
+
+- Display latest additions in the front page
+- Allow display of detail view of a design
+- show category

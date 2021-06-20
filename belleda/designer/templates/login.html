@@ -1,0 +1,18 @@
+<!-- {% extends 'base.html' % } -->
+
+<!-- {% block title %}Login | {% endblock %} -->
+
+{% block content %}
+    <h1 class="title">Login</h1>
+
+    <form method="post" action=".">
+        <!-- To ensure that we dont receive a post request from another form asides this, we use a csrf token -->
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <div>
+            <button class="button">Login</button>
+        </div>
+    </form>
+{% endblock %}

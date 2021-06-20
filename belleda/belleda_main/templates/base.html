@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %} Belleda Fashion House</title>
+</head>
+<body>
+    <h1>Main Page</h1>
+
+    <section>
+        {% block content %}
+        {% endblock %}
+    </section>
+    <footer>
+        <h3>Belleda Fashion House</h3>
+
+        {% if request.user.is_authenticated %}
+            <a href="{% url 'designer_admin' %}">Designer Admin</a>
+        {% else %}
+            <a href="{% url 'become_designer' %}">Become Designer</a>
+        {% endif %}
+        
+    </footer>
+</body>
+</html>
