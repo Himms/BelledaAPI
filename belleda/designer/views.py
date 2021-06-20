@@ -31,4 +31,4 @@ def become_designer(request):
 def designer_admin(request):
     designer = request.user.designer
 
-    return render(request, 'designer/designer_admin.html', {'designer': designer})
+    return render(request, 'designer_admin.html', {'designer': designer})
