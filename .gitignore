@@ -8,8 +8,6 @@ belleda_fashion_project/
 
 # *__pycache__
 
-db.sqlite3
-
 *.pot
 
 *.pyc
