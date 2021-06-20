@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def base(request):
     return render(request, 'base.html')
+
+
+def frontpage(request):
+    return render(request, 'frontpage.html')
