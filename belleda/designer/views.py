@@ -1,4 +1,5 @@
 from django.contrib.auth import login
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 
@@ -24,3 +25,10 @@ def become_designer(request):
         form = UserCreationForm()
 
     return render(request, 'become_designer.html', {'form': form})
+
+
+@login_required
+def designer_admin(request):
+    designer = request.user.designer
+
+    return render(request, 'designer/designer_admin.html', {'designer': designer})
