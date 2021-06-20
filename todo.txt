@@ -3,8 +3,8 @@
 - Create app for main view and add to installed apps
 
 - create app for designers
-- create database for designers
-- create view, template and form for sign up
+- create database for designers (models.py)
+- create view, template and form for sign up (views)
 
 - create authentication
 
