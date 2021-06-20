@@ -20,4 +20,7 @@ def become_designer(request):
 
             return redirect('base')
 
-    return render(request, 'become_designer.html')
+    else:
+        form = UserCreationForm()
+
+    return render(request, 'become_designer.html', {'form': form})
