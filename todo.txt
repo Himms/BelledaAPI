@@ -25,3 +25,17 @@ _ Add a simple frontpage
 - Make it possible to remove design(s) from the cart
 - Make it possible to update quantity
 
+- create new app and models for the others
+- make it possible to checkout
+- create a success page
+
+- show placed orders in the designers area
+
+- make it possible to edit a designer
+
+- notify the designer after a successful paid order
+
+- show a list of designers
+- Make it possible to see all designs from a designer
+
+-
