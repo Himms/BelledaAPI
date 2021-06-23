@@ -18,3 +18,10 @@ _ Add a simple frontpage
 - Allow display of detail view of a design
 - show category
 - Create Simple search
+
+-
+- Make it possible to add designs to the cart
+- Create view and templates for the cart
+- Make it possible to remove design(s) from the cart
+- Make it possible to update quantity
+
