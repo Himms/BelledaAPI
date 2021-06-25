@@ -14,5 +14,5 @@ class Designer(models.Model):
     class Meta:
         ordering = ['name']
 
-    def __str__(self) -> str:
+    def __str__(self):
         return self.name
