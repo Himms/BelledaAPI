@@ -7,7 +7,17 @@
     <title>{% block title %}{% endblock %} Belleda Fashion House</title>
 </head>
 <body>
-    <h1>Main Page</h1>
+    <!-- <h1>Main Page</h1> -->
+    <nav>
+        <div>
+            <h1>Belleda Shop</h1>
+        </div>
+        <div>
+            <div>
+                <a href="{% url 'nav_item' %}">Any Nav Item</a>
+            </div>
+        </div>
+    </nav>
 
     <section>
         {% block content %}
