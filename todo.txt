@@ -37,8 +37,16 @@ _ Add a simple frontpage
 
 - show a list of designers
 - Make it possible to see all designs from a designer
+- Make it possible to edit a design
+- 
 
 - Deployment
 - setup database
 - users
 - Virtual Environment
+- Get project
+- Set environment variables
+- Create settings file for production
+- create Gunicorn
+- Create Supervisor
+
