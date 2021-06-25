@@ -19,7 +19,7 @@ def become_designer(request):
             designer = Designer.objects.create(
                 name=user.username, created_by=user)
 
-            return redirect('base')
+            return redirect('frontpage')
 
     else:
         form = UserCreationForm()
