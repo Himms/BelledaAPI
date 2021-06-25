@@ -38,4 +38,7 @@ _ Add a simple frontpage
 - show a list of designers
 - Make it possible to see all designs from a designer
 
--
+- Deployment
+- setup database
+- users
+- Virtual Environment
