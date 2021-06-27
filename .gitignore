@@ -4,6 +4,8 @@
 
 belleda_fashion_project/
 
+db.sqlite3
+
 *.log
 
 # *__pycache__
