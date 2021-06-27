@@ -1,4 +1,9 @@
 .idea/
+Pipfile
+Pipfile.lock
+venv/
+.gitignore
+
 
 *.xml
 
@@ -19,3 +24,4 @@ db.sqlite3
 */*/__pycache__/
 
 */__pycache__/
+/Pipfile.lock
