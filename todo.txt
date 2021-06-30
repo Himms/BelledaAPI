@@ -1,6 +1,8 @@
 - Create Virtual Environment and activate it (belleda_fashion_project)
 - install django and Create project (belleda)
 - Create app for main view and add to installed apps
+_ Add a simple frontpage
+- Add static files (main.css)
 
 - create app for designers
 - create database for designers (models.py)
@@ -15,3 +17,36 @@
 - Display latest additions in the front page
 - Allow display of detail view of a design
 - show category
+- Create Simple search
+
+-
+- Make it possible to add designs to the cart
+- Create view and templates for the cart
+- Make it possible to remove design(s) from the cart
+- Make it possible to update quantity
+
+- create new app and models for the others
+- make it possible to checkout
+- create a success page
+
+- show placed orders in the designers area
+
+- make it possible to edit a designer
+
+- notify the designer after a successful paid order
+
+- show a list of designers
+- Make it possible to see all designs from a designer
+- Make it possible to edit a design
+- 
+
+- Deployment
+- setup database
+- users
+- Virtual Environment
+- Get project
+- Set environment variables
+- Create settings file for production
+- create Gunicorn
+- Create Supervisor
+

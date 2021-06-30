@@ -1,4 +1,9 @@
 .idea/
+Pipfile
+Pipfile.lock
+venv/
+.gitignore
+
 
 *.xml
 
@@ -17,4 +22,5 @@ belleda_fashion_project/
 */*/__pycache__/
 
 */__pycache__/
+/Pipfile.lock
 db.sqlite3

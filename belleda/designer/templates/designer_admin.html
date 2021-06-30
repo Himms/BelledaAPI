@@ -1,4 +1,4 @@
-<!-- {% extends 'base.html' % } -->
+{% extends 'base.html' %}
 
 {% block title %}Designer Admin | {% endblock %}
 
@@ -7,5 +7,31 @@
         <h1 class="title">Designer Admin - {{ designer.name }}</h1>
         <br>
         <a href="{% url 'logout' %}">Logout</a>
+    </div>
+
+    <div>
+        <h2 class="">My designs</h2>
+        <a href="{% url 'add_design' %}" class="">Add design</a>
+        {% if designs %}
+            <table class="">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for design in designs %}
+                        <tr>
+                            <td>{{ design.title }}</a></td>
+                            <td>${{ design.price }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>You don't have any designs yet...</p>
+        {% endif %}
     </div>
 {% endblock %}
