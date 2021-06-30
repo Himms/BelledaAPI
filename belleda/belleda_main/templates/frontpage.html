@@ -4,5 +4,23 @@
 
 {% block content %}
     <h1>Welcome to Belleda Front Page</h1>
+
+    {% for design in newest_designs%}
+    <div class="column is-multiline mb6">
+        <div class="column is-3 design-list-item">
+            <div class="box">
+                <figure class="image is-4by3 mb-4">
+                    <img src="{{ design.get_thumbnail}}"
+                </figure>
+                <h2 class="subtitle">{{design.title}}</h2>
+                <h3 class="price is-size-6 mb-5">{{design.price}}</h3>
+                <hr>
+                <a href="#" class="button-is-dark">View</a>
+
+            </div>
+        </div>
+        
+    {% endfor%}
+    </div>
 {% endblock %}
 
