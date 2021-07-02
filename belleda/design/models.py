@@ -41,7 +41,7 @@ class Design(models.Model):
             return self.thumbnail.url
         else:
             if self.image:
-                self.thumbnail = self.make_thumbmail(self.image)
+                self.thumbnail = self.make_thumbnail(self.image)
                 self.save()
 
                 return self.thumbnail.url

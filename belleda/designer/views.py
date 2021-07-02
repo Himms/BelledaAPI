@@ -8,8 +8,11 @@ from .forms import DesignForm
 from design.models import Design
 
 from .models import Designer
-#from design.models import Design
+# from design.models import Design
 
+#def frontpage(request):
+#    newest_products = Designer.objects.all() [0:8]
+ #   return render(request, 'frontpage.html' ,{'newest_products': newest_products})
 
 def become_designer(request):
     # check if the form has been submitted
