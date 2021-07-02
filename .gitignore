@@ -9,9 +9,17 @@ venv/
 
 belleda_fashion_project/
 
+belleda/belleda_main/
+belleda/design/
+belleda/designer/
+belleda/media/
+static/
+
+db.sqlite3
+
 *.log
 
-# *__pycache__
+*__pycache__
 
 *.pot
 
@@ -22,5 +30,6 @@ belleda_fashion_project/
 */*/__pycache__/
 
 */__pycache__/
+
 /Pipfile.lock
 db.sqlite3
