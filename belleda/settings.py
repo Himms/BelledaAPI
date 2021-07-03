@@ -108,12 +108,18 @@ WSGI_APPLICATION = 'belleda.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        "default": env.dj_db_url("DATABASE_URL")
+#    }
+#}
+
 DATABASES = {
     'default': {
-        "default": env.dj_db_url("DATABASE_URL")
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
