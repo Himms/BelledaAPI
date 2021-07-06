@@ -30,9 +30,9 @@ DEBUG = env.bool("DEBUG", default=False)
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
-LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'designer_admin'
-LOGOUT_REDIRECT_URL = 'frontpage'
+# LOGIN_URL = 'login'
+# LOGIN_REDIRECT_URL = 'designer_admin'
+# LOGOUT_REDIRECT_URL = 'frontpage'
 
 # Application definition
 
@@ -108,11 +108,11 @@ WSGI_APPLICATION = 'belleda.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
+# DATABASES = {
 #    'default': {
 #        "default": env.dj_db_url("DATABASE_URL")
 #    }
-#}
+# }
 
 DATABASES = {
     'default': {
@@ -158,11 +158,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media/'
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'static'
+# ]
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = BASE_DIR / 'media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
