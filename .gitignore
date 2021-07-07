@@ -8,12 +8,6 @@ venv/
 
 belleda_fashion_project/
 
-belleda/belleda_main/
-belleda/design/
-belleda/designer/
-belleda/media/
-static/
-
 db.sqlite3
 
 *.log
